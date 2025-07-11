@@ -29,8 +29,9 @@ src/main
 
 
 ## Dataabase Table Structure
- CREATE TABLE Employee (
+ CREATE TABLE employee (
 id int PRIMARY KEY AUTO_INCREMENT,
-name VARCHAR,
+first_name VARCHAR(255),
+last_name VARCHAR(255),
 DOUBLE salary
 );
